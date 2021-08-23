@@ -17,9 +17,9 @@
         total_casos_ca += data.cases;
         total_muertos_ca += data.deaths;
         total_millon_ca += data.casesPerOneMillion;
-        sv = ` <strong class='p-3 mb-2 bg-info text-white'>Casos:  </strong><strong class='p-3 mb-2 bg-warning text-dark'>${data.cases}</strong><br/><br/>
-        <strong class='p-3 mb-2 bg-info text-white'>Muertos:  </strong><strong class='p-3 mb-2 bg-danger text-white'>${data.deaths}</strong><br/><br/>
-        <strong class='p-3 mb-2 bg-info text-white'>Casos por millon:  </strong><strong class='p-3 mb-2 bg-primary text-white'>${data.casesPerOneMillion}</strong>`;
+        sv = ` <h4 class='text-dark mb-2   '>Casos:  </h4><h4 class='px-2 mb-2 bg-warning text-dark'>${data.cases}</h4>
+        <h4 class=' text-dark mb-2'>Muertos:  </h4><h4 class='px-2  mb-2 bg-danger text-white'>${data.deaths}</h4>
+        <h4 class=' text-dark mb-2'>Casos por millon:  </h4><h4 class=' px-2  mb-2 bg-primary text-white'>${data.casesPerOneMillion}</h4>`;
         document.getElementById("sv-casos").innerHTML = sv;
         document.getElementById("sv-principal").innerHTML = data.cases;
 
@@ -36,10 +36,9 @@
       total_casos_ca += data.cases;
       total_muertos_ca += data.deaths;
       total_millon_ca += data.casesPerOneMillion;
-      gt = `
-      <strong class='p-3 mb-2 bg-info text-white'>Casos:  </strong><strong class='p-3 mb-2 bg-warning text-dark'>${data.cases}</strong><br/><br/>
-      <strong class='p-3 mb-2 bg-info text-white'>Muertos:  </strong><strong class='p-3 mb-2 bg-danger text-white'>${data.deaths}</strong><br/><br/>
-      <strong class='p-3 mb-2 bg-info text-white'>Casos por millon:  </strong><strong class='p-3 mb-2 bg-primary text-white'>${data.casesPerOneMillion}</strong>`;
+      gt =   ` <h4 class='text-dark mb-2   '>Casos:  </h4><h4 class='px-2 mb-2 bg-warning text-dark'>${data.cases}</h4>
+      <h4 class=' text-dark mb-2'>Muertos:  </h4><h4 class='px-2  mb-2 bg-danger text-white'>${data.deaths}</h4>
+      <h4 class=' text-dark mb-2'>Casos por millon:  </h4><h4 class=' px-2  mb-2 bg-primary text-white'>${data.casesPerOneMillion}</h4>`;
       document.getElementById("gt-casos").innerHTML = gt;
 
     });
@@ -55,10 +54,9 @@
       total_casos_ca += data.cases;
       total_muertos_ca += data.deaths;
       total_millon_ca += data.casesPerOneMillion;
-      hn = `
-      <strong class='p-3 mb-2 bg-info text-white'>Casos:  </strong><strong class='p-3 mb-2 bg-warning text-dark'>${data.cases}</strong><br/><br/>
-      <strong class='p-3 mb-2 bg-info text-white'>Muertos:  </strong><strong class='p-3 mb-2 bg-danger text-white'>${data.deaths}</strong><br/><br/>
-      <strong class='p-3 mb-2 bg-info text-white'>Casos por millon:  </strong><strong class='p-3 mb-2 bg-primary text-white'>${data.casesPerOneMillion}</strong>`;
+      hn =  ` <h4 class='text-dark mb-2   '>Casos:  </h4><h4 class='px-2 mb-2 bg-warning text-dark'>${data.cases}</h4>
+      <h4 class=' text-dark mb-2'>Muertos:  </h4><h4 class='px-2  mb-2 bg-danger text-white'>${data.deaths}</h4>
+      <h4 class=' text-dark mb-2'>Casos por millon:  </h4><h4 class=' px-2  mb-2 bg-primary text-white'>${data.casesPerOneMillion}</h4>`;
       document.getElementById("hn-casos").innerHTML = hn;
 
     });
@@ -75,10 +73,9 @@
        total_casos_ca += data.cases;
        total_muertos_ca += data.deaths;
        total_millon_ca += data.casesPerOneMillion;
-       cr = `
-       <strong class='p-3 mb-2 bg-info text-white'>Casos:  </strong><strong class='p-3 mb-2 bg-warning text-dark'>${data.cases}</strong><br/><br/>
-       <strong class='p-3 mb-2 bg-info text-white'>Muertos:  </strong><strong class='p-3 mb-2 bg-danger text-white'>${data.deaths}</strong><br/><br/>
-       <strong class='p-3 mb-2 bg-info text-white'>Casos por millon:  </strong><strong class='p-3 mb-2 bg-primary text-white'>${data.casesPerOneMillion}</strong>`;
+       cr =  ` <h4 class='text-dark mb-2   '>Casos:  </h4><h4 class='px-2 mb-2 bg-warning text-dark'>${data.cases}</h4>
+       <h4 class=' text-dark mb-2'>Muertos:  </h4><h4 class='px-2  mb-2 bg-danger text-white'>${data.deaths}</h4>
+       <h4 class=' text-dark mb-2'>Casos por millon:  </h4><h4 class=' px-2  mb-2 bg-primary text-white'>${data.casesPerOneMillion}</h4>`;
        document.getElementById("cr-casos").innerHTML = cr;
  
      });
@@ -94,10 +91,9 @@
         total_casos_ca += data.cases;
         total_muertos_ca += data.deaths;
         total_millon_ca += data.casesPerOneMillion;
-        nc = `
-        <strong class='p-3 mb-2 bg-info text-white'>Casos:  </strong><strong class='p-3 mb-2 bg-warning text-dark'>${data.cases}</strong><br/><br/>
-        <strong class='p-3 mb-2 bg-info text-white'>Muertos:  </strong><strong class='p-3 mb-2 bg-danger text-white'>${data.deaths}</strong><br/><br/>
-        <strong class='p-3 mb-2 bg-info text-white'>Casos por millon:  </strong><strong class='p-3 mb-2 bg-primary text-white'>${data.casesPerOneMillion}</strong>`;
+        nc =  ` <h4 class='text-dark mb-2   '>Casos:  </h4><h4 class='px-2 mb-2 bg-warning text-dark'>${data.cases}</h4>
+        <h4 class=' text-dark mb-2'>Muertos:  </h4><h4 class='px-2  mb-2 bg-danger text-white'>${data.deaths}</h4>
+        <h4 class=' text-dark mb-2'>Casos por millon:  </h4><h4 class=' px-2  mb-2 bg-primary text-white'>${data.casesPerOneMillion}</h4>`;
         document.getElementById("nc-casos").innerHTML = nc;
   
       });

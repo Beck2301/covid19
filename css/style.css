@@ -1952,7 +1952,20 @@ textarea.form-control {
   @media only screen and (max-width: 600px) {
     .d-flex{
       flex-direction: column; 
+      
     }
+    h1{
+      font-size: 1.5rem;
+      
+    }
+    .ml-5, .mx-5 {
+      margin-left: 1rem !important;
+  }
+  .mr-5, .mx-5 {
+    margin-right: 1rem !important;
+}
+  
+
   }
 .form-inline {
   display: -webkit-box;
@@ -9673,5 +9686,7 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 .bg-svg{
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1060%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M319.93281126050874 396.4284963332232L393.64812966902093 451.97697307457463 375.48128800186015 322.713177924711z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M677.9694546340359 428.44689250376973L640.270869748153 318.96225220520364 568.4848143354698 466.1454773896525z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M995.0771366590693 550.7743551060289L979.2670264229703 438.2795754245332 882.5823569775737 566.5844653421279z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M0.8177232969507386 514.733397505039L69.92584950815392 600.0748260567191 163.3839292300726 453.74192246407426z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M747.4930645214466 266.38725084224103L845.886811923931 216.2531324695489 721.4887606636506 93.72957055216847z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M184.46299655187 460.71297752340774L225.07189413792565 612.2674465539286 336.01746558239086 420.1040799373521z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M624.1701290741584 173.44752926983074L779.8151150944527 209.53727923654498 741.3174299660623 75.27989606535641z' fill='rgba(237%2c 237%2c 237%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1060'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+ 
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1032' height='123.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
