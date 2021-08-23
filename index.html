@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <title>Covid El Salvador</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="https://i.ibb.co/rMxZ7SF/ico.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap"
+    rel="stylesheet">
+  <!--CSS Iconos-->
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <!--CSS animacion-->
+  <link rel="stylesheet" href="css/animate.css">
+  <!--CSS propio-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42880642-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-42880642-3');
+  </script>
+
+</head>
+
+<body class="bg-svg">
+  <script src="casos_covid.js"></script>
+
+
+  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container-fluid px-md-5">
+      <a class="navbar-brand" href="index.html">COVID-19 <span>EL SALVADOR </span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="estadisticas/" class="nav-link">Estadisticas</a></li>
+
+          <!-- <li class="nav-item"><a href="practice-areas.html" class="nav-link">Noticias</a></li>
+	          <li class="nav-item"><a href="case.html" class="nav-link">Twits</a></li>
+	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+
+
+  <div class="hero-wrap js-fullheight"
+    style="background-image: url('https://elsalvadorgram.com/wp-content/uploads/2019/02/plaza-libertad.png');"
+    data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <!--Contendedor informacion-->
+    <div class="container-fluid px-md-5">
+      <div class="row no-gutters slider-text  align-items-center justify-content-start" data-scrollax-parent="false"
+        style="height: 480px;">
+        <div class="col-sm-6">
+          <div class="col-md-6 ftco-animate">
+            <h2 class="subheading">EL SALVADOR</h2>
+            <h1 class="mb-4">COVID-19 </h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="years d-flex">
+            <h1 class="number mr-2" style="color: red;" id="sv-principal"></h1>
+            <h1 class="heading mb-3" style="color: white;">Casos confirmados</h1>
+          </div>
+          <a href="estadisticas/" class=" btn-primary btn-lg active" role="button" aria-pressed="true">Ver
+            Estadisticas</a>
+        </div>
+      </div>
+    </div>
+    <!--termina Contendor informacion-->
+
+    <div class="card  text-center bg-dark text-white mx-5 mb-5 ">
+      <div class="card-header">
+        <h2 style="color:whitesmoke;">COVID EN CENTROAMERICA</h2>
+      </div>
+      <div class="card-body" style="color: black;">
+        <div class="card-deck">
+
+          <!-- El Salvador-->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="sv-title"></h5>
+              <p class="card-text">
+                <div id="sv-casos"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted" id="fecha-hoy">
+                <script>
+                  document.write(fechahoy);
+                </script>
+              </small>
+            </div>
+          </div>
+
+          <!-- Guatemala -->
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="gt-title"></h5>
+              <p class="card-text">
+                <div id="gt-casos"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted" id="fecha-hoy">
+                <script>
+                  document.write(fechahoy);
+                </script>
+              </small>
+            </div>
+          </div>
+
+          <!-- Honduras-->
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="hn-title"></h5>
+              <p class="card-text">
+                <div id="hn-casos"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted" id="fecha-hoy">
+                <script>
+                  document.write(fechahoy);
+                </script>
+              </small>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="cr-title"></h5>
+              <p class="card-text">
+                <div id="cr-casos"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted" id="fecha-hoy">
+                <script>
+                  document.write(fechahoy);
+                </script>
+              </small>
+            </div>
+          </div>
+          
+          <!-- Nicaragua -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="nc-title"></h5>
+              <p class="card-text">
+                <div id="nc-casos"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted" id="fecha-hoy">
+                <script>
+                  document.write(fechahoy);
+                </script>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+    
+    <div class="card  text-center bg-dark text-white mx-5 mb-5 ">
+      <div class="card-header">
+        <h2 style="color:whitesmoke;">TWEETSS OFFICIALES</h2>
+      </div>
+      <div class="card-body" style="color: black;">
+        <div class="card-deck">
+
+        
+   
+          <!-- minsalud-->
+
+          <div class="card">
+            <div class="card-body">
+              <a class="twitter-timeline" data-height="600" data-theme="light"
+              href="https://twitter.com/SaludSV?ref_src=twsrc%5Etfw">Tweets by minsalud</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <a class="twitter-timeline" data-height="600"
+              href="https://twitter.com/nayibbukele?ref_src=twsrc%5Etfw">Tweets by nayibbukele</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-body">
+              <a class="twitter-timeline" data-height="600" data-theme="light"
+              href="https://twitter.com/PNCSV?ref_src=twsrc%5Etfw">Tweets by PNC</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Graficas -->
+
+
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+  </div>
+
+
+
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" /></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
